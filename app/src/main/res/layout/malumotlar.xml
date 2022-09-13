@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/teal_700"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/ediism"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="ismi"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtuid" />
+
+    <EditText
+        android:id="@+id/edipochta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="pochta"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="@+id/editel"
+        app:layout_constraintTop_toBottomOf="@+id/editel" />
+
+    <EditText
+        android:id="@+id/ediparol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="parol"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="@+id/edipochta"
+        app:layout_constraintTop_toBottomOf="@+id/edipochta" />
+
+    <EditText
+        android:id="@+id/editel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="telehon raqam"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="@+id/edifamilya"
+        app:layout_constraintTop_toBottomOf="@+id/edifamilya" />
+
+    <EditText
+        android:id="@+id/edifamilya"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="familya"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="@+id/ediism"
+        app:layout_constraintTop_toBottomOf="@+id/ediism" />
+
+    <EditText
+        android:id="@+id/edinetkash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="NetCash"
+        android:inputType="number"
+        app:layout_constraintStart_toStartOf="@+id/ediparol"
+        app:layout_constraintTop_toBottomOf="@+id/ediparol" />
+
+    <EditText
+        android:id="@+id/edipromocod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="promocod"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="@+id/edinetkash"
+        app:layout_constraintTop_toBottomOf="@+id/edinetkash" />
+
+    <EditText
+        android:id="@+id/ediuserid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="user id"
+        android:inputType="number"
+        app:layout_constraintStart_toStartOf="@+id/edipromocod"
+        app:layout_constraintTop_toBottomOf="@+id/edipromocod" />
+
+    <EditText
+        android:id="@+id/ediyoshi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="yoshi"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="@+id/ediuserid"
+        app:layout_constraintTop_toBottomOf="@+id/ediuserid" />
+
+    <TextView
+        android:id="@+id/txtuid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="user UID"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btntahrirlash"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="tahrirlash"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/edidaraja"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintStart_toEndOf="@+id/ediism"
+        app:layout_constraintTop_toTopOf="@+id/ediism" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:text="daraja"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/edidaraja"
+        app:layout_constraintStart_toEndOf="@+id/edidaraja"
+        app:layout_constraintTop_toTopOf="@+id/edidaraja" />
+
+    <EditText
+        android:id="@+id/edibugun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="bugun"
+        android:inputType="number"
+        app:layout_constraintStart_toStartOf="@+id/ediyoshi"
+        app:layout_constraintTop_toBottomOf="@+id/ediyoshi" />
+
+    <EditText
+        android:id="@+id/edikecha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="kecha"
+        android:inputType="number"
+        app:layout_constraintStart_toStartOf="@+id/edibugun"
+        app:layout_constraintTop_toBottomOf="@+id/edibugun" />
+
+    <EditText
+        android:id="@+id/edihafta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="hafta"
+        android:inputType="number"
+        app:layout_constraintStart_toStartOf="@+id/edikecha"
+        app:layout_constraintTop_toBottomOf="@+id/edikecha" />
+
+    <EditText
+        android:id="@+id/edioy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="oy"
+        android:inputType="number"
+        app:layout_constraintStart_toStartOf="@+id/edihafta"
+        app:layout_constraintTop_toBottomOf="@+id/edihafta" />
+
+    <EditText
+        android:id="@+id/edijami"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="jami"
+        android:inputType="number"
+        app:layout_constraintStart_toStartOf="@+id/edioy"
+        app:layout_constraintTop_toBottomOf="@+id/edioy" />
+
+    <TextView
+        android:id="@+id/txtkirvaqt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:textSize="20dp"
+        android:text="kirgan vaqti"
+        app:layout_constraintStart_toStartOf="@+id/edidaraja"
+        app:layout_constraintTop_toBottomOf="@+id/edidaraja" />
+
+    <TextView
+        android:id="@+id/txtonline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="songi falollik"
+        app:layout_constraintStart_toStartOf="@+id/txtkirvaqt"
+        app:layout_constraintTop_toBottomOf="@+id/edipochta" />
+
+    <TextView
+        android:id="@+id/txtlink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="referal"
+        app:layout_constraintStart_toStartOf="@+id/txtonline"
+        app:layout_constraintTop_toBottomOf="@+id/edipromocod" />
+
+    <ImageView
+        android:id="@+id/imgfon"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        app:layout_constraintBottom_toBottomOf="@+id/edioy"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/edikecha"
+        app:layout_constraintTop_toBottomOf="@+id/edibugun"
+        app:srcCompat="@drawable/image_placeholder" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

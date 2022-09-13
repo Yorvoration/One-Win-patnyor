@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "1050421682228",
+    "project_id": "wonvin-f36b8",
+    "storage_bucket": "wonvin-f36b8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1050421682228:android:e31c50f0bbfc9f27e2ea61",
+        "android_client_info": {
+          "package_name": "com.example.onewin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1050421682228-37joigbjccnn4mv8g9tua70k39gdfddf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8tol6tGXsScUuxRUCR-8sOCh01P8W5Ic"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1050421682228-37joigbjccnn4mv8g9tua70k39gdfddf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1050421682228:android:cf4e513194efcae8e2ea61",
+        "android_client_info": {
+          "package_name": "com.uzcodemd.onewinadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1050421682228-37joigbjccnn4mv8g9tua70k39gdfddf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8tol6tGXsScUuxRUCR-8sOCh01P8W5Ic"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1050421682228-37joigbjccnn4mv8g9tua70k39gdfddf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

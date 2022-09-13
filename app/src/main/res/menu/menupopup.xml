@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/issmi"
+        android:title="Ism" />
+
+    <item
+        android:id="@+id/famili"
+        android:title="Familya" />
+
+    <item
+        android:id="@+id/tefon"
+        android:title="Telefon raqam" />
+
+    <item
+        android:id="@+id/email"
+        android:title="Pochta" />
+
+    <item
+        android:id="@+id/netkash"
+        android:title="NetCash" />
+
+    <item
+        android:id="@+id/UiD"
+        android:title="Uid" />
+
+    <item
+        android:id="@+id/userid"
+        android:title="User id" />
+
+    <item
+        android:id="@+id/daraja"
+        android:title="Daraja" />
+
+    <item
+        android:id="@+id/llink"
+        android:title="Referal" />
+    <item
+        android:id="@+id/promokod"
+        android:title="Promocod" />
+
+    <item
+        android:id="@+id/yoshi"
+        android:title="Yoshi" />
+    <item
+        android:id="@+id/kirvaqt"
+        android:title="Kirgan Vaqti" />
+    <item
+        android:id="@+id/songivaqt"
+        android:title="So`ngi kirilgan vaqti" />
+
+    <item
+        android:id="@+id/bugun"
+        android:title="bugun" />
+
+    <item
+        android:id="@+id/kecha"
+        android:title="kecha" />
+
+    <item
+        android:id="@+id/hafta"
+        android:title="hafta" />
+
+    <item
+        android:id="@+id/oyyyy"
+        android:title="Oy" />
+
+    <item
+        android:id="@+id/jami"
+        android:title="Jami" />
+</menu>
